@@ -1,6 +1,49 @@
 <!DOCTYPE html>
-	<html>
-	<body style="background-color:powderblue;">
-	<p style="font-family:Courier; color:Blue; font-size: medium; text-align:center;">2022/03/03, 09:35,   Outside Temp: 6.7'C,  Humid: 95.0(%RH)<br />Garage Temp: 7.6'C, Humidity: 75.4(%RH)</p>
-	</body>
-	</html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 30px;
+  font-color: red;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="container">
+  <img src="C_F_Bistro_touch.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+
+	<iframe src="/result.html" width="750" height="75"></iframe>
+	<iframe src="/test3.html" width="750" height="75"></iframe>	
+  </div>
+</div>
+
+</body>
+</html>
